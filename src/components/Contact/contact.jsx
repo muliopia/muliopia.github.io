@@ -32,7 +32,7 @@ const Contact = () => {
         Contact <span className="text-lime-600">Me</span>
       </h1>
       <div className="mt-8 text-center">
-        <h2 className="text-white text-xl">Connect with me:</h2>
+        <h2 className="text-gray-200 text-xl">Connect with me</h2>
         <div className="flex justify-center space-x-6 m-4 mb-8">
           <a href="mailto:mulugetasahil31@gmail.com" className="text-lime-600 hover:text-lime-400">
             <FaEnvelope size={24} />
