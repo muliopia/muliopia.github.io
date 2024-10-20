@@ -15,14 +15,14 @@ function Projects() {
 
   return (
     <div className="font-barlow bg-gradient-to-r from-purple-500 to-green-400 h-fit w-full p-8">
-      <div className="text-white pt-36 pb-10 text-center">
+      <div className="text-white pt-12 pb-10 text-center">
         <h1 className="text-3xl pb-3">
           My Recent <strong className="text-lime-600">Works</strong>
         </h1>
         <p>Here are a few projects I have worked on recently.</p>
       </div>
       <div className="flex items-center justify-center">
-        <div className={`grid ${isDesktopOrLaptop ? 'grid-cols-3' : 'grid-cols-1'} gap-8`}>
+        <div className={`grid ${isDesktopOrLaptop ? 'grid-cols-3' : 'grid-cols-1 sm:grid-cols-2'} gap-8`}>
           <ProjectCards
             imgPath={axum}
             title="Axum"
@@ -41,18 +41,18 @@ function Projects() {
             description="Ethiopian exit exam preparation web app using MERN"
             demoLink="https://github.com/chappiii"
           />
-          <div className="col-span-3 justify-center flex">
-            <Card className="h-[600px] w-[300px] text-white hover:scale-105 transition-transform duration-300 rounded overflow-hidden shadow-lg border border-lime-600 bg-gradient-to-r from-purple-600 to-green-500">
+          <div className="flex justify-center">
+            <Card className="w-full max-w-xs h-[450px] text-white hover:scale-105 transition-transform duration-300 rounded overflow-hidden shadow-lg border border-lime-600 bg-gradient-to-r from-purple-600 to-green-500">
               <Card.Img
                 src={scanner}
                 alt="QR Code Scanner"
-                className="w-64 object-cover object-center mx-5 my-4 rounded-t"
+                className="h-48 w-full object-cover object-center"
               />
-              <Card.Body className="mb-6">
+              <Card.Body className="mb-3 mt-6">
                 <Card.Title className="font-bold text-xl mb-2">
                   v25 QR Code Scanner
                 </Card.Title>
-                <Card.Text className="mb-6 mx-2">
+                <Card.Text className="mb-3 mx-2">
                   Flutter mobile app to scan QR codes version 25
                 </Card.Text>
                 <Button
