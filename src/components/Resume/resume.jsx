@@ -12,7 +12,7 @@ const resumeLink =
   "https://raw.githubusercontent.com/muliopia/muliopia.github.io/master/src/assets/Mulugeta%20Resume.pdf";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(100);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

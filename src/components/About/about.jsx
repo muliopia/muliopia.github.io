@@ -18,7 +18,7 @@ function About() {
                 A little about <span className="text-lime-600">ME</span>
               </h1>
               <p className="text-white text-2xl mb-5 mx-10 text-justify">
-                Hello there, <span className="px-3 text-lime-600">Mulugeta</span> here. Born in Filakit around North Wollo, Ethiopia. I'm a fresh graduate in Electrical and Computer Engineering from Axum/Dire Dawa University who is in love with programming and problem-solving.
+                Hello there, <span className="px-3 text-lime-600">Mulugeta</span> here. Born in Filakit around North Wollo, Ethiopia. I'm a fresh graduate in Electrical and Computer Engineering from Axum/Dire Dawa University who is in love with programming and problem-solving, specializing in the computer stream.
                 <br />
                 <br />
                 Apart from coding, what do I enjoy?
@@ -26,6 +26,13 @@ function About() {
                 <br /> 👉🏾 Gaming
                 <br /> 👉🏾 Reading books
                 <br /> 👉🏾 Traveling
+                
+              
+                <br/>
+              <br/>I’m eager to leverage my technical skills and enthusiasm for technology in a challenging engineering role.
+              
+                
+                
               </p>
             </div>
           </div>
@@ -45,7 +52,7 @@ function About() {
             A little about <span className="text-lime-600">ME</span>
           </h1>
           <p className="text-white text-xl mb-10 mx-8 text-left">
-            Hello there, <span className="text-lime-600">Mulugeta</span> here. Born in Filakit around North Wollo, Ethiopia. I'm a fresh graduate in Electrical and Computer Engineering from Mekelle/Dire Dawa University who is in love with programming and problem-solving.
+            Hello there, <span className="text-lime-600">Mulugeta</span> here. Born in Filakit around North Wollo, Ethiopia. I'm a fresh graduate in Electrical and Computer Engineering from Mekelle/Dire Dawa University who is in love with programming and problem-solving, specializing in the computer stream.
             <br />
             <br />
             Apart from coding, what do I enjoy?
@@ -53,6 +60,9 @@ function About() {
             <br /> 👉🏾 Gaming
             <br /> 👉🏾 Reading books
             <br /> 👉🏾 Traveling
+            <br/>
+              <br/>I’m eager to leverage my technical skills and enthusiasm for technology in a challenging engineering role.
+              
           </p>
           <h1 className="bg-gradient-to-r from-purple-600 to-green-500 text-white text-2xl p-3 text-center">
             Professional <span className="text-lime-600">Skillset</span>
