@@ -14,14 +14,14 @@ function NavBar() {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-gradient-to-r from-gray-600 to-green-500 shadow-md w-full fixed top-0 left-0 z-10 md:bg-gradient-to-r md:from-purple-600 md:to-green-500 sm:bg-blue-600">
+    <div className="bg-gradient-to-r from-gray-700 to-green-500 shadow-md w-full fixed top-0 left-0 z-10 md:bg-gradient-to-r md:from-purple-600 md:to-green-500 sm:bg-blue-600">
       <div className="md:flex items-center justify-between py-4 md:px-6 px-2">
         <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-white"
         >
-          <span className="text-3xl mr-1 pt-2">
+          <span className="text-3xl mr-5 pt-2">
             <a href={"#/"}>
-              <img src={logo} alt="logo" className="w-10 bg-gray-100 p-1 shadow-lg rounded-xl hover:scale-105 transition-transform duration-300 overflow-hidden" />
+              <img src={logo} alt="logo" className="w-10 bg-gray-200 p-1  shadow-lg rounded-xl hover:scale-105 transition-transform duration-300 overflow-hidden" />
             </a>
           </span>
         </div>

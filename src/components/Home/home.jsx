@@ -68,7 +68,7 @@ function Home() {
             <Type />
           </div>
           <div className="w-[50%] flex mx-auto mb-28">
-            <img src={mu} className="rounded-full" alt="mu" />
+            <img src={mu} className="rounded-sm" alt="mu" />
           </div>
           <div className="pb-10">
             <h1 className="text-gray-100 mx-10 text-xl pb-6">

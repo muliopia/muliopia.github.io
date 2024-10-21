@@ -10,6 +10,7 @@ function Type() {
           "Developer",
          "UI/UX Designer",
           "Open Source Contributor",
+          "Freelancer",
         ],
         autoStart: true,
         loop: true,
