@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 const resumeLink =
- " https://github.com/muliopia/muliopia.github.io/blob/main/assets/Mulugeta.pdf";
+"https://raw.githubusercontent.com/muliopia/muliopia.github.io/master/src/assets/Mulugeta%20Resume.pdf";
   function ResumeNew() {
   const [width, setWidth] = useState(1200);
   const [loading, setLoading] = useState(true);
