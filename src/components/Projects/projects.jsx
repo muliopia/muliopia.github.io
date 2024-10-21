@@ -27,19 +27,19 @@ function Projects() {
             imgPath={axum}
             title="Axum"
             description="Movie streaming web app"
-            demoLink="https://github.com/chappiii/semister-project"
+            demoLink="https://github.com/muliopia"
           />
           <ProjectCards
             imgPath={gpt}
             title="Chat Bot"
             description="Chat bot using ChatGPT API"
-            demoLink="https://github.com/chappiii"
+            demoLink="https://github.com/muliopia"
           />
           <ProjectCards
             imgPath={exit}
             title="Exit"
             description="Ethiopian exit exam preparation web app using MERN"
-            demoLink="https://github.com/chappiii"
+            demoLink="https://github.com/muliopia"
           />
           <div className="flex justify-center">
             <Card className="w-full max-w-xs h-[450px] text-white hover:scale-105 transition-transform duration-300 rounded overflow-hidden shadow-lg border border-lime-600 bg-gradient-to-r from-purple-600 to-green-500">
@@ -56,7 +56,7 @@ function Projects() {
                   Flutter mobile app to scan QR codes version 25
                 </Card.Text>
                 <Button
-                  href="https://github.com/chappiii"
+                  href="https://github.com/muliopia"
                   target="_blank"
                   className="bg-slate-900 hover:bg-lime-700 text-white font-bold py-2 px-4 rounded inline-flex items-center transition-colors duration-300"
                 >
