@@ -71,11 +71,11 @@ function Home() {
             <img src={mu} className="rounded-sm" alt="mu" />
           </div>
           <div className="pb-10">
-            <h1 className="text-gray-100 mx-10 text-xl pb-6">
+            <h1 className="text-gray-100 mx-10 text-lg pb-6">
               <span className="text-lime-400">Somethings</span> you should Know
               about me
             </h1>
-            <p className="text-gray-200 text-lg mx-8 text-left">
+            <p className="text-gray-200 text-md mx-8 text-left">
               I'm in love with the process of learning and figuring things out.
               Tech enthusiast!!! <br />
               <br />
