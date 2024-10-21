@@ -1,16 +1,17 @@
 import { useState, useEffect } from "react";
-import Particle from "../Particle";
-import pdf from "../../assets/Kidus Resume.pdf";
+import Particle from "../Particle"; // Assuming you have a Particle component
+import pdf from "../../assets/Mulugeta Resume-a14086db.pdf"; // Your resume file
 import { AiOutlineDownload, AiOutlineLoading3Quarters } from "react-icons/ai"; // Import the spinning icon
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
+// Set the PDF worker source
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://raw.githubusercontent.com/muliopia/muliopia.github.io/main/src/assets/Mulugeta%20Resume.pdf";
 
-function ResumeNew() {
+const resumeLink =
+ " https://github.com/muliopia/muliopia.github.io/main/assets/Mulugeta%20Resume.pdf";
+  function ResumeNew() {
   const [width, setWidth] = useState(1200);
   const [loading, setLoading] = useState(true);
 
@@ -26,8 +27,8 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center pt-16">
-      <div className="resume-section w-full max-w-4xl mx-auto shadow-lg p-8">
+    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 flex flex-col items-center justify-center pt-16 text-white">
+      <div className="resume-section w-full max-w-4xl mx-auto shadow-lg p-8 rounded-lg bg-gray-800">
         <Particle />
         <div className="flex justify-center py-5">
           <a
@@ -53,7 +54,7 @@ function ResumeNew() {
           <div className="flex justify-center items-center mt-5">
             <AiOutlineLoading3Quarters className="animate-spin text-6xl text-lime-500" />
           </div>
-        )}{" "}
+        )}
         <div className="flex justify-center py-5">
           <a
             href={pdf}
@@ -61,8 +62,8 @@ function ResumeNew() {
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-white bg-lime-700 hover:bg-lime-600"
           >
-            {/* <AiOutlineDownload />
-            Download Resume */}
+            <AiOutlineDownload />
+            Download Resume
           </a>
         </div>
       </div>
