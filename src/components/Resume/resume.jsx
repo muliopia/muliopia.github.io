@@ -7,7 +7,6 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 // Set the PDF worker source
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
 const resumeLink =
   "https://raw.githubusercontent.com/muliopia/muliopia.github.io/main/assets/Mulugeta%20Resume.pdf";
 
