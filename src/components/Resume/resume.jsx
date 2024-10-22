@@ -5,7 +5,6 @@ import { AiOutlineDownload, AiOutlineLoading3Quarters } from "react-icons/ai"; /
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-// Set the PDF worker source
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const resumeLink =
   "https://raw.githubusercontent.com/muliopia/muliopia.github.io/main/assets/Mulugeta%20Resume.pdf";
@@ -31,7 +30,7 @@ function ResumeNew() {
         <Particle />
         <div className="flex justify-center py-5">
           <a
-            href={pdf}
+            href={resumeLink}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-white bg-lime-700 hover:bg-lime-600"
