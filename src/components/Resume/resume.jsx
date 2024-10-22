@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Particle from "../Particle"; // Assuming you have a Particle component
-import pdf from "../../assets/Mulugeta.pdf"; // Your resume file
+import pdf from "../../assets/Mulugeta Resume.pdf"; // Your resume file
 import { AiOutlineDownload, AiOutlineLoading3Quarters } from "react-icons/ai"; // Import the spinning icon
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 const resumeLink =
-"https://raw.githubusercontent.com/muliopia/muliopia.github.io/main/assets/Mulugeta.pdf";
+"https://raw.githubusercontent.com/muliopia/muliopia.github.io/main/assets/Mulugeta20%Resume.pdf";
   function ResumeNew() {
   const [width, setWidth] = useState(1200);
   const [loading, setLoading] = useState(true);
