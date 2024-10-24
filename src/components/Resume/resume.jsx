@@ -4,7 +4,6 @@ import pdf from "../../assets/Mulugeta Resume.pdf"; // Your resume file
 import { AiOutlineDownload, AiOutlineLoading3Quarters } from "react-icons/ai"; // Import the spinning icon
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const resumeLink =
   "https://raw.githubusercontent.com/muliopia/muliopia.github.io/main/assets/Mulugeta%20Resume.pdf";
