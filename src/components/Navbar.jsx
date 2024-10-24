@@ -14,7 +14,7 @@ function NavBar() {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-gradient-to-r from-gray-700 to-green-500 shadow-md w-full fixed top-0 left-0 z-10 md:bg-gradient-to-r md:from-purple-600 md:to-green-500 sm:bg-blue-600">
+    <div className="bg-gradient-to-r from-purple-700 to-green-500 shadow-lg w-full fixed top-0 left-0 z-10 md:bg-gradient-to-r md:from-purple-600 md:to-green-500 sm:bg-blue-600">
       <div className="md:flex items-center justify-between py-4 md:px-6 px-2">
         <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-white"
@@ -35,7 +35,7 @@ function NavBar() {
 
         <ul
           className={`md:flex md:items-center md:pb-0 mt-2 md:mt-2 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-20" : "top-[-490px]"
+            open ? "top-20 bg-gradient-to-r from-purple-500 to-green-400 shadow-lg " : "top-[-490px]"
           }`}
         >
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">

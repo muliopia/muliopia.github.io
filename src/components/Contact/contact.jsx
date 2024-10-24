@@ -32,21 +32,21 @@ const Contact = () => {
         Contact <span className="text-lime-600">Me</span>
       </h1>
       <div className="mt-8 text-center">
-        <h2 className="text-gray-300 text-xl">Connect with me</h2>
+        <h2 className="text-gray-200 text-xl">Contact with me</h2>
         <div className="flex justify-center space-x-6 m-4 mb-8">
-          <a href="mailto:mulugetasahil31@gmail.com" className="text-lime-600 hover:text-lime-400">
+          <a href="mailto:mulugetasahil31@gmail.com" className="text-lime-300 hover:text-lime-400">
             <FaEnvelope size={24} />
           </a>
-          <a href="https://wa.me/+251946277434" className="text-lime-600 hover:text-lime-400">
+          <a href="https://wa.me/+251946277434" className="text-lime-300 hover:text-lime-400">
             <FaWhatsapp size={24} />
           </a>
-          <a href="https://t.me/Muliopia1" className="text-lime-600 hover:text-lime-400">
+          <a href="https://t.me/Muliopia1" className="text-lime-300 hover:text-lime-400">
             <FaTelegramPlane size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/muliopia" className="text-lime-600 hover:text-lime-400">
+          <a href="https://www.linkedin.com/in/muliopia" className="text-lime-300 hover:text-lime-400">
             <FaLinkedin size={24} />
           </a>
-          <a href="https://github.com/muliopia" className="text-lime-600 hover:text-lime-400">
+          <a href="https://github.com/muliopia" className="text-lime-300 hover:text-lime-400">
             <FaGithub size={24} />
           </a>
         </div>
