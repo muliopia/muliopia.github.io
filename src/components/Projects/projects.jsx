@@ -53,7 +53,7 @@ function Projects() {
                   v25 QR Code Scanner
                 </Card.Title>
                 <Card.Text className="mb-3 mx-2">
-                  Flutter mobile app to scan QR codes version 25
+            using react Native
                 </Card.Text>
                 <Button
                   href="https://github.com/muliopia"
