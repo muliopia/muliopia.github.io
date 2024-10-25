@@ -52,7 +52,7 @@ function About() {
             A little about <span className="text-lime-600">ME</span>
           </h1>
           <p className="text-white text-lg mb-10 mx-6 text-left">
-            Hello there, <span className="text-lime-500">Mulugeta</span> here. Born in Filakit around North Wollo, Ethiopia. I'm a fresh graduate in Electrical and Computer Engineering from Mekelle/Dire Dawa University who is in love with programming and problem-solving, specializing in the computer stream.
+            Hello there, <span className="text-lime-500">Mulugeta</span> here. Born in Filakit around North Wollo, Ethiopia. I'm a fresh graduate in Electrical and Computer Engineering from Axum/Dire Dawa University who is in love with programming and problem-solving, specializing in the computer stream.
             <br />
             <br />
             Apart from coding, what do I enjoy?
