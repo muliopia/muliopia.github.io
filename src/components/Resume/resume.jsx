@@ -52,7 +52,7 @@ function ResumeNew() {
             <AiOutlineLoading3Quarters className="animate-spin text-6xl text-lime-500" />
           </div>
         )}
-        <div className="flex justify-center py-5">
+        <div className="flex justify-center py-5 m-4">
           <a
             href={pdf}
             target="_blank"
